@@ -1,2 +1,21 @@
-package PACKAGE_NAME;public class TreeNode {
+
+// class for tree object;
+// used for symmetric tree code
+public class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(){}
+
+    TreeNode(int val) {
+        this.val = val;
+    }
+
+    TreeNode(int val, TreeNode left, TreeNode right){
+        this.val = val;
+        this.left  = left;
+        this.right = right;
+    }
+
 }

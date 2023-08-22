@@ -9,7 +9,7 @@ class Solution:
         else:
             grab = head.next
             head.next = None
-            return self.helper(head,grab)
+            return self.helper(head, grab)
 
 
     def helper(self, head: [ListNode],nextNode: [ListNode]):
